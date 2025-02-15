@@ -2,6 +2,8 @@
 
 A powerful AI-driven crypto assistant powered by [Gaia AI](https://docs.gaianet.ai/intro) and [Zerion API](https://developers.zerion.io/reference/intro/getting-started). This project showcases how AI can interact with Web3 APIs to provide real-time portfolio insights.
 
+https://github.com/user-attachments/assets/7a81179c-a981-4cc9-92ec-962a76215b19
+
 ## 🌟 Features
 - 🤖 **AI-Powered Crypto Assistant** – Uses **Gaia AI** to interpret queries and fetch wallet balances.
 - 💰 **Real-Time Portfolio Data** – Retrieves live wallet data via **Zerion API**.
