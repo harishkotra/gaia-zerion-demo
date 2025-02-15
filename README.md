@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gaia's AI + Zerion = 🚀  
 
-## Getting Started
+A powerful AI-driven crypto assistant powered by [Gaia AI](https://docs.gaianet.ai/intro) and [Zerion API](https://developers.zerion.io/reference/intro/getting-started). This project showcases how AI can interact with Web3 APIs to provide real-time portfolio insights.
 
-First, run the development server:
+## 🌟 Features
+- 🤖 **AI-Powered Crypto Assistant** – Uses **Gaia AI** to interpret queries and fetch wallet balances.
+- 💰 **Real-Time Portfolio Data** – Retrieves live wallet data via **Zerion API**.
+- ⚡ **Smart Function Calling** – AI decides when to fetch data instead of blindly calling an API.
+- 🚀 **Extensible Template** – Can be expanded to track transactions, DeFi holdings, or AI-powered investment insights.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📌 Why Not Just Call the API Directly?  
+Unlike traditional API calls, this project leverages **AI-driven agent behavior**:
+1. **Natural Language Understanding** – No need to manually enter API parameters. Just chat with the AI.
+2. **Smart Data Retrieval** – AI determines if and when to fetch portfolio data, preventing unnecessary API calls.
+3. **Scalability** – This approach can be extended to support multi-agent interactions, consensus mechanisms, or even blockchain-verified queries.
+
+## 🛠️ Setup & Installation  
+### **1️⃣ Clone/Fork the Repo**
+```sh
+git clone https://github.com/harishkotra/gaia-zerion-demo
+cd gaia-zerion-demo
 ```
+### **2️⃣ Install Dependencies**
+```sh
+npm install
+```
+### **3️⃣ Add Your API Keys**
+Create a .env.local file and add:
+```sh
+NEXT_PUBLIC_GAIA_NODE_URL=your_gaia_node_URL
+NEXT_PUBLIC_GAIA_API_KEY=your_gaia_api_key
+NEXT_PUBLIC_ZERION_API_KEY=your_zerion_api_key
+NEXT_PUBLIC_ZERION_BASE_URL==zerion_base_URL
+```
+### **4️⃣ Run the App**
+```sh
+npm run dev
+```
+Visit `http://localhost:3000` to chat with the AI assistant.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 What Can You Build With This?
+This is just a starting point! You can expand it into:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🔍 On-Chain AI Analysis – Let AI analyze wallet transactions and detect patterns.
+📊 DeFi Portfolio Tracker – Monitor DeFi positions, LP tokens, and staking rewards.
+🤝 Multi-Agent AI Trading Bot – Implement multi-agent consensus for AI-driven trade recommendations.
+🔐 Blockchain-Verified Queries – Use smart contracts to verify AI responses before showing them.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Resources
 
-## Learn More
+[Gaia AI](https://docs.gaianet.ai/intro) – Gaia is a decentralized computing infrastructure that enables everyone to create, deploy, scale, and monetize their own AI agents that reflect their styles, values, knowledge, and expertise.
+[Zerion API](https://developers.zerion.io/reference/intro/getting-started) - The Zerion API can be used to build feature-rich web3 apps, wallets, and protocols with ease. Across all major blockchains, you can access wallets, assets, and chain data for web3 portfolios. Zerion's infrastructure supports all major chains!
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚡ Contributing
+Feel free to fork this repo and submit pull requests! Let's push the boundaries of AI x Web3 together! 🚀
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
