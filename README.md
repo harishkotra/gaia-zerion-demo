@@ -11,9 +11,13 @@ https://github.com/user-attachments/assets/7a81179c-a981-4cc9-92ec-962a76215b19
 - 🚀 **Extensible Template** – Can be expanded to track transactions, DeFi holdings, or AI-powered investment insights.
 
 ## 📌 Why Not Just Call the API Directly?  
+
 Unlike traditional API calls, this project leverages **AI-driven agent behavior**:
+
 1. **Natural Language Understanding** – No need to manually enter API parameters. Just chat with the AI.
+
 2. **Smart Data Retrieval** – AI determines if and when to fetch portfolio data, preventing unnecessary API calls.
+
 3. **Scalability** – This approach can be extended to support multi-agent interactions, consensus mechanisms, or even blockchain-verified queries.
 
 ## 🛠️ Setup & Installation  
@@ -44,13 +48,17 @@ Visit `http://localhost:3000` to chat with the AI assistant.
 This is just a starting point! You can expand it into:
 
 🔍 On-Chain AI Analysis – Let AI analyze wallet transactions and detect patterns.
+
 📊 DeFi Portfolio Tracker – Monitor DeFi positions, LP tokens, and staking rewards.
+
 🤝 Multi-Agent AI Trading Bot – Implement multi-agent consensus for AI-driven trade recommendations.
+
 🔐 Blockchain-Verified Queries – Use smart contracts to verify AI responses before showing them.
 
 ## 📚 Resources
 
 [Gaia AI](https://docs.gaianet.ai/intro) – Gaia is a decentralized computing infrastructure that enables everyone to create, deploy, scale, and monetize their own AI agents that reflect their styles, values, knowledge, and expertise.
+
 [Zerion API](https://developers.zerion.io/reference/intro/getting-started) - The Zerion API can be used to build feature-rich web3 apps, wallets, and protocols with ease. Across all major blockchains, you can access wallets, assets, and chain data for web3 portfolios. Zerion's infrastructure supports all major chains!
 
 
